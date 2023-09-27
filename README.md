@@ -34,7 +34,7 @@ import 'package:phonepe_pg/phonepe_pg.dart';
 Future<PaymentResponse> initTransaction() async {
   PaymentResponse paymentResponse = await PhonePePg.initTransaction({
     'customerMobile': '+919876543210',
-    'amount': 100.00,
+    'amount': 100,//amount should be in paise 100=1 rupee
     'redirectType': RedirectType.REDIRECT,
   });
 
