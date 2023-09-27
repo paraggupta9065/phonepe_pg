@@ -1,7 +1,7 @@
 name: phonepe_pg
-description: A new Flutter package project.
+description: This package provides a Flutter wrapper for the PhonePe PG SDK, allowing you to easily accept payments from your Flutter Web app.
 version: 0.0.1
-homepage: "adf"
+homepage: https://github.com/paraggupta9065/phonepe_pg
 
 environment:
   sdk: '>=3.0.5 <4.0.0'
